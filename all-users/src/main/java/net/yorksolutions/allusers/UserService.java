@@ -1,4 +1,4 @@
-package net.yorksolutions.allusers.Customer;
+package net.yorksolutions.allusers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -51,6 +51,7 @@ public class UserService {
 
         throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
     }
+
 
     public void setRepository(UserAccountRepository repository){this.repository = repository;}
 

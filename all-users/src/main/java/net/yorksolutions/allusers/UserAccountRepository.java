@@ -1,5 +1,6 @@
-package net.yorksolutions.allusers.Customer;
+package net.yorksolutions.allusers;
 
+import net.yorksolutions.allusers.UserAccount;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
